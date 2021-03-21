@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-     box-sizing: border-box
+    box-sizing: border-box
 }
 
-img{
+img {
     max-width: 80px;
 }
 
-a{
+a {
     text-decoration: none
 }
-ul, li{
+
+ul,
+li {
     list-style: none;
 }
 
@@ -22,37 +24,44 @@ ul, li{
     max-width: 960px;
     margin: 0 auto;
     align-items: center;
-    flex-wrap:wrap;
-    
+    flex-wrap: wrap;
+
 }
-.logo{
-    margin-left: 35px ;
+
+.logo {
+    margin-left: 35px;
 }
-.menu-nav ul{
+
+.menu-nav ul {
     display: flex;
-    margin-right: 35px ;
+    margin-right: 35px;
 }
 
 
-.menu-nav a{
-    font-size:1.25em;
+.menu-nav a {
+    font-size: 1.25em;
     display: block;
     padding: 10px;
     margin: 5px;
     color: white
 }
 
-header{
+.menu-nav a:hover{
+    color: #4285F4
+}
+
+header {
     background: #202020
 }
 
 /* home */
 
-.home-bg{
-   background: #2B2B2B;
-   
+.home-bg {
+    background: #2B2B2B;
+
 }
-.home{
+
+.home {
     display: flex;
     max-width: 960px;
     margin: 0 auto;
@@ -60,21 +69,21 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 610px;
-     flex-wrap:wrap;
-     
+    flex-wrap: wrap;
+
 }
 
-.textosobre{
-    max-width: 400px ;
+.textosobre {
+    max-width: 400px;
     color: white;
-    margin: 35px ;
-    
+    margin: 35px;
+
 }
 
 
 
-.cardperfilback{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+.cardperfilback {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
     transition: 0.3s;
     display: flex;
     flex-wrap: wrap;
@@ -85,13 +94,14 @@ header{
     margin: 35px;
     padding: 32px 50px;
     color: white;
-    
-    
-    
-    
+
+
+
+
 }
-.cardperfil{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+
+.cardperfil {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
     transition: 0.3s;
     display: flex;
     flex-wrap: wrap;
@@ -101,19 +111,19 @@ header{
     background: #202020;
     margin: 35px;
     padding: 32px 50px;
-    
-    
+
+
 }
 
-.sobremim{
+.sobremim {
     padding: 22px 15px;
     color: white;
     margin: 10px auto;
-    
-    
+
+
 }
 
-.fotoperfil{
+.fotoperfil {
     align-self: center
 }
 
@@ -127,35 +137,44 @@ header{
 
 /* serviçoes */
 
+.content h2{
+    margin-top: 10px
+}
 
+h2{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin: 
+}
 
 .content {
     display: flex;
     background: #202020;
     flex-direction: column
-    
 }
 
 .a {
     max-width: 960px;
     margin: 0 auto;
     color: white;
-    
+
 }
-.servicos{
+
+.servicos {
     display: flex;
     max-width: 960px;
     margin: 0 auto;
     flex-wrap: wrap;
-   
-  
+
+
 }
 
 
 
-
 .cardservico {
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
     transition: 0.3s;
     display: flex;
     flex-wrap: wrap;
@@ -163,10 +182,11 @@ header{
     justify-content: center;
     background: #2B2B2B;
     padding: 30px;
-    margin: 35px ;
-    
+    margin: 35px;
+
 }
-.cardservico-txt{
+
+.cardservico-txt {
     color: white
 }
 
@@ -176,44 +196,73 @@ header{
 /* sobre */
 
 
-.sobre-bg{
+.sobre-bg {
     background: #2B2B2B;
-   
+
 
 }
 
 
-.sobre{
+.sobre {
     display: flex;
     max-width: 960px;
     margin: 0 auto;
-   justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 
-.sobre-info{
+.sobre-info {
     color: white;
     font-size: 1.5em;
     max-width: 400px;
-    margin: 35px ;
-    
- }
+    margin: 35px;
+
+}
+
 .habilidade {
-    background-color: #202020 ;
-    padding: 35px;
-    margin: 35px ;
+    background-color: #202020;
+    margin-right: 35px;
+
+}
+
+.sobre-bg h2{
+    padding-top:  10px
+}
+
+
+.habilidade ul {
+    display: flex;
+    margin: 35px;
+
+}
+.habilidade li {
+    margin: 10px;
+    padding: 10px;
+/*    background: #2B2B2B*/
+}
+.habilidade li:hover {
+/*    background: #4285F4*/
+}
+
+
+.habilidade img {
+    max-width: 50px
 }
 
 
 /* contato */
 
-.contato-bg{
-    background-color:#202020;
+.contato-bg {
+    background-color: #202020;
 }
 
-.contato{
+.contato-bg h2{
+    padding-top:  10px
+}
+
+.contato {
     display: flex;
     max-width: 960px;
     margin: 0 auto;
@@ -224,15 +273,48 @@ header{
 
 
 
-.contatolink{
+.contatolink {
     background-color: #2B2B2B;
-    margin: 35px
+    margin: 15px;
+    padding: 10px;
+    color: white;
+
+}
+
+.contatoprofissional img {
+    max-width: 20px;
+
+
+
+}
+
+.contatoprofissional a {
+    padding: 5px;
+    line-height: 2;
+    font-size: 1.2em;
+    color: black;
+    width: 250px;
+    margin: 0 0 0 10px
+}
+
+
+.contatoprofissional li {
+    display: flex;
+    flex-wrap: wrap;
+/*        width: 300px;*/
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 0 20px;
+
 }
 
 
 
-.mapa{
-    padding: 10px
+
+
+
+.mapa {
+    padding: 25px;
 }
 
 
@@ -241,27 +323,41 @@ header{
 
 /* footer */
 
-.footer-bg{
-    background-color:#2B2B2B;
+.footer-bg {
+    background-color: #2B2B2B;
 }
 
 
 
-.footer{
+.footer {
     max-width: 960px;
     padding: 10px;
     margin: 0 auto;
+    display: flex
 }
 
 .footer p {
     align-self: center;
+    margin: 0 auto;
+    font-size: 1.4em;
+
 }
 
-hr{
+hr {
     max-width: 80%;
     margin: 0 auto;
+    background: #2B2B2B;
 }
 
+
+
+
+
+.cardservico:hover {
+    background: #4285F4;
+    transition: 0.2s
+    
+}
 
 
 
